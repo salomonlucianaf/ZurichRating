@@ -71,7 +71,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -103,4 +102,12 @@ span {
       font-size: 15pt;
       padding: 10px 20px;
       border: none;
+  }
+
+  .logo {
+   display: block;
+   margin-left: auto;
+   margin-right: 45px;
+   margin-top:45px;
+   padding-right:30px;
   }
