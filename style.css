@@ -104,10 +104,9 @@ span {
       border: none;
   }
 
-  .logo {
-   display: block;
-   margin-left: auto;
-   margin-right: 45px;
-   margin-top:45px;
-   padding-right:30px;
+  .container-fluid {
+   display: flex;
+   flex-direction: row-reverse;
+   padding-right: 50px;
+   padding-top: 25px;
   }
