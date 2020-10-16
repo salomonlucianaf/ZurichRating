@@ -3,6 +3,10 @@
     src: url('../fonts/Frutiger.ttf') format('truetype');
 }
 
+.logo {
+  width: 9%;
+}
+
 .central-text {
   font-family: Frutiger;
   font-weight: bold;
@@ -20,7 +24,7 @@
   transform: scaleX(-1);
 }
 
-.rating input {
+.rating input[type="radio"] {
   display: none;
 }
 
@@ -29,15 +33,15 @@
   cursor: pointer;
   margin: 0 4px;
   padding: 0;
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  font-size: 80px;
 }
 
 .rating label:before {
   display: block;
   position: relative;
   content: '\f005';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  font-size: 80px;
   color: #0030a3;
 }
 
@@ -46,9 +50,6 @@
   position: absolute;
   top: 0;
   content: '\f005';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  font-size: 80px;
   color: #E8EBF5;
   opacity:1;
   transition: 0.5s;
@@ -58,4 +59,8 @@
 .rating label:hover ~ label:after,
 .rating input:checked ~ label:after {
   opacity: 0;
+}
+
+.send {
+  background: #0030a3;
 }
