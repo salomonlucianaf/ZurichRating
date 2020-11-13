@@ -11,11 +11,12 @@
   font-family: Frutiger;
   font-weight: bold;
   color: #0030a3;
+  font-size: 65px;
 }
 
 .rating-quest {
   font-family: Frutiger;
-  font-size: 25pt;
+  font-size: 35pt;
   background: #0030a3;
   border-radius: 25px;
 }
@@ -63,4 +64,5 @@
 
 .send {
   background: #0030a3;
+  font-size:30px;
 }
